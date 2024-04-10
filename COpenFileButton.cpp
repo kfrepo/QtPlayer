@@ -1,4 +1,4 @@
-﻿#include "COpenFileButton.h"
+#include "COpenFileButton.h"
 #include <QHBoxLayout>
 #include <QPainter>
 #include <QMenu>
@@ -7,10 +7,6 @@
 #include <QSettings>
 #include <QStandardPaths>
 #include <QDebug>
-
-#if _MSC_VER >= 1600
-#pragma execution_character_set("utf-8")
-#endif
 
 #define LEFT_BUTTON_WIDTH 145
 #define RIGHT_BUTTON_WIDTH 60

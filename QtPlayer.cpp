@@ -35,6 +35,11 @@ QtPlayer::~QtPlayer()
 
 void QtPlayer::initUI()
 {
+
+    QIcon icon(":/QtPlayer/resources/logo.png");
+    // 设置窗口图标
+    setWindowIcon(icon);
+
     m_pTitleBar = new CTitleBar(this);
     m_pVideoWidget = new VideoWidget(this);
     m_pRightPlayListWidget = new CRightPlayListWidget(this);

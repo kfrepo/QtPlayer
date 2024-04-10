@@ -25,7 +25,7 @@ CVideoWidgetTopWidget::CVideoWidgetTopWidget(QWidget* p)
 	m_pOpenrRightlistButton->setText("");
 	m_pOpenrRightlistButton->setFixedSize(36, 80);
 
-	//ͼƬµĆ«҆ 80 / 2 - 32 / 2 = 40 - 16 = 24
+
 	m_pOpenrRightlistButton->setStyleSheet("QPushButton{background-color:rgb(54,54,54);background-image:url(:/videoWidget/resources/videoWidget/left_arrow.svg); \
 		background-position:center; \
 		padding-top: 24px; \
